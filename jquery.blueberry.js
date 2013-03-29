@@ -163,7 +163,7 @@
                         }
                     });
 
-                    $(this).append($('<img alt="Left" class="slidernav arrow_left" id="arrow_left" src="fileadmin/rpbatmobile/images/pfeil_links.gif"><img alt="Right" class="slidernav arrow_right" id="arrow_right" src="fileadmin/rpbatmobile/images/pfeil_right.gif">'));
+                    $(this).append($('<img alt="Left" class="slidernav arrow_left" id="arrow_left" src="images/pfeil_links.gif"><img alt="Right" class="slidernav arrow_right" id="arrow_right" src="images/pfeil_right.gif">'));
 
                 }
 
