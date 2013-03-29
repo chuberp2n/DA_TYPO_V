@@ -23,6 +23,134 @@
     <title></title>
 </head>
 <body>
+    <div data-role="page" data-theme="a" data-fullscreen="true" >
+        <header>
+            <div data-role="header">
+                <div id="logo_header">
+                    <a href="http://rpbm.plan2.net/"><img src="images/logo.gif" width="65" height="65">
+                    </a>
+                    </div>
+                <div>
+                    <a href="#search-zeig" data-rel="popup" data-position-to="window">
+                        <img id="lupe" src="images/lupe.gif" width="65" height="58">
+                    </a>
+                    <a href="#popupPanel" data-rel="popup" data-transition="slide" data-position-to="window">
+                        <img id="sitemap"src="images/sitemap.gif" width="55" height="65">
+                    </a>
+                </div>
 
+                <div data-role="popup" id="popupPanel" data-corners="false" data-theme="none" data-shadow="false" data-tolerance="0,0">
+                    <header>
+                        <img src="images/restplatzboerse_at_white.png" width="295" height="50" style="margin-top:10px">
+                    </header>
+                    <ul data-role="listview">
+                        <li><a href="">Top Angebote</a></li>
+                        <li><a href="">Top Region</a></li>
+                        <li><a href="">Pauschalreisen</a></li>
+                        <li><a href="http://rpbm.plan2.net/index.php?id=2245/">Filialien</a></li>
+                        <li><a href="http://rpbm.plan2.net/index.php?id=2261/">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div id="search-zeig" data-role="popup" data-theme="a"  class="ui-content">|</div>
+                    <form>
+                        <div class="ui-input-search" id="search-bar-startpage">
+                            <input type="text" data-type="search" name="" id="search-basic" value="" class="ui-input-text ui-body-c">
+                        </div>
+
+                    </form>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <label for="date1"> Hinflug:</label>
+                        <input type="date" id="date1" value=""/>
+                    </div>
+                    <div class="ui-block-b">
+                        <label for="date2"> Rückflug:</label>
+                        <input type="date" id="date2" value=""/>
+                    </div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <label>Reisedauer:</label>
+                    </div>
+                    <div class="ui-block-b">
+                        <select name="select0" id="select0" data-native-menu="false" style="display: inline-block;">
+                            <option value="1">1 Woche</option>
+                            <option value="2">2 Wochen</option>
+                            <option value="3">3 Wochen</option>
+                            <option value="4">4 Wochen</option>
+                        </select>
+                    </div>
+
+                    <div class="ui-block-a">
+                        <label>Reisende:</label>
+                    </div>
+                    <div class="ui-block-b">
+                        <select name="select1" id="select1" data-native-menu="false" style="display: inline-block;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+
+                    <div class="ui-block-a">
+                        <label>Hotelkategorie:</label>
+                    </div>
+                    <div class="ui-block-b">
+                        <select name="select2" id="select2" style="display: inline-block;">
+                            <option value="1">mind. 1 Sterne</option>
+                            <option value="2">mind. 2 Sterne</option>
+                            <option value="3">mind. 3 Sterne</option>
+                            <option value="4">mind. 4 Sterne</option>
+                            <option value="5">5 Sterne</option>
+                        </select>
+                    </div>
+
+                    <div class="ui-block-a">
+                        <label>Verpflegung:</label>
+                    </div>
+                    <div class="ui-block-b">
+                        <select name="select3" id="select3"  style="display: inline-block;">
+                            <option value="frühstück">Frühstück</option>
+                            <option value="halbpension">Halbpension</option>
+                            <option value="vollpension">Vollpension</option>
+                            <option value="ai">All Inclusive</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div data-role="content">
+
+            <div class="blueberry">
+                <ul class="slides">
+                    <li><img src="" /></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul data-role="listview">
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2266/">Hurghada</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2265/">Teneriffa</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2264/">Mallorca</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2263/">Sharm El Sheikh</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2262/">Rhodos</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2267/">Tunesien Inland</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2268/">Kos</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2269/">Ibiza</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2271/">Gran Canaria</a></li>
+                    <li><a href="http://rpbm.plan2.net/index.php?id=2287/">Kreta</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            
+        </div>
+    </div>
 </body>
 </html>
