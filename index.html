@@ -28,7 +28,7 @@
 
         function getTopRegions(){
             var output = $('#top10-topregions');
-            var id=0;
+
             $.ajax({
                 url: 'http://kuoni.plan2.net/fileadmin/rpbatmobile/static/working_prototype/json_startpage_TopRegions.php',
                 //url: 'http://kuoni/fileadmin/rpbatmobile/static/working_prototype/json_startpage_TopRegions.php',
@@ -38,7 +38,7 @@
                 success: function(data, status){
                     $.each(data, function(i,item){
 
-                        var place = '<li><a href="http://rpbm.plan2.net/index.php?id=2289&user_kuoniibefe_pi3[topRegion]='+id+'"><h3>'+item.name +'</h3></a></li>';
+                        var place = '<li><a href="http://rpbm.plan2.net/index.php?id=2289&user_kuoniibefe_pi3[topRegion]='+item.topregion+'"><h3>'+item.name +'</h3></a></li>';
                         output.append(place);
 
                     });
