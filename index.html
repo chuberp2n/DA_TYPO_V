@@ -37,24 +37,8 @@
                 timeout: 5000,
                 success: function(data, status){
                     $.each(data, function(i,item){
-                        if(item.name.match("Hurghada"))
-                            id=2266
-                        else if(item.name.match("Teneriffa"))
-                            id=2265
-                        else if(item.name.match("Mallorca"))
-                            id=2264
-                        else if(item.name.match("Sharm El Sheikh"))
-                            id=2263
-                        else if(item.name.match("Rhodos"))
-                            id=2262
-                        else if(item.name.match("Kos"))
-                            id=2268
-                        else if(item.name.match("Ibiza"))
-                            id=2269
-                        else if(item.name.match("Kreta"))
-                            id=2287
 
-                        var place = '<li><a href="http://rpbm.plan2.net/index.php?id='+id+'"><h3>'+item.name +'</h3></a></li>';
+                        var place = '<li><a href="http://rpbm.plan2.net/index.php?id=2289&user_kuoniibefe_pi3[topRegion]='+id+'"><h3>'+item.name +'</h3></a></li>';
                         output.append(place);
 
                     });
